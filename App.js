@@ -1,13 +1,15 @@
 import React from 'react'
-import First from './components/index/First'
-import Login from './components/index/Login'
-import Dashboard from './components/index/Dashboard'
-import { createStackNavigator, createAppContainer } from 'react-navigation'
+import First from './src/components/index/First'
+import Login from './src/components/index/Login'
+import Dashboard from './src/components/index/Dashboard'
+import Signup from './src/components/index/Signup'
+import { createDrawerNavigator, createStackNavigator, createAppContainer } from 'react-navigation'
 
 const Navigation = createStackNavigator({
     First: First,
     Login: Login,
-    Dashboard: Dashboard
+    Dashboard: Dashboard,
+    Signup: Signup
   }
 );
 

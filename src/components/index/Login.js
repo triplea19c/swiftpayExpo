@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Text, View, StyleSheet, Image, TouchableOpacity, TextInput, KeyboardAvoidingView, TouchableWithoutFeedback, Keyboard} from 'react-native'
-import image from '../../assets/images/swiftpaylogo.png'
+import image from '../../../assets/images/swiftpaylogo.png'
 import Dashboard from './Dashboard'
 
 const DismissKeyboard = ({ children }) => (
@@ -87,7 +87,8 @@ const Login = ({navigation}) => {
      paddingTop: 20,
      marginLeft: 50,
      borderWidth: 1,
-     borderColor: 'gray'
+     borderColor: 'gray',
+     borderRadius: 5
    },
    passwordInput: {
      backgroundColor: 'white',
@@ -100,6 +101,7 @@ const Login = ({navigation}) => {
      paddingTop: 20,
      marginLeft: 50,
      borderWidth: 1,
-     borderColor: 'gray'
+     borderColor: 'gray',
+     borderRadius: 5
    }
  })

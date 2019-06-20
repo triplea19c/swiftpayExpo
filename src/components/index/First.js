@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import {Text, View, StyleSheet, Image, TouchableOpacity} from 'react-native'
-import image from '../../assets/images/swiftpaylogo.png'
+import image from '../../../assets/images/swiftpaylogo.png'
 import Login from './Login'
+import Signup from './Signup'
 
 const First = ({navigation}) => {
     return(
@@ -18,7 +19,7 @@ const First = ({navigation}) => {
               <TouchableOpacity style={styles.loginButton} onPress={() => navigation.navigate('Login')}>
                 <Text style={styles.loginText}>LOGIN</Text>
               </TouchableOpacity>
-              <TouchableOpacity style={styles.signupButton}>
+              <TouchableOpacity style={styles.signupButton} onPress={() => navigation.navigate('Signup')}>
                 <Text style={styles.signupText}>SIGN UP</Text>
               </TouchableOpacity>
             </View>
