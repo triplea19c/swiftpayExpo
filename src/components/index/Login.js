@@ -20,7 +20,7 @@ const Login = ({navigation}) => {
              Please Log in  to  Continue
            </Text>
            <TextInput style={styles.usernameInput}
-           placeholder = "username/email"
+           placeholder = "Username/Email"
            underlineColorAndroid = "transparent"
            autoCapitalize = "none"
            placeholderTextColor = "gray"
@@ -83,8 +83,8 @@ const Login = ({navigation}) => {
      borderRadius: 2,
      fontSize: 12,
      width: 300,
-     marginTop: 20,
-     paddingTop: 20,
+     marginTop: 10,
+     paddingTop: 10,
      marginLeft: 50,
      borderWidth: 1,
      borderColor: 'gray',
@@ -97,8 +97,8 @@ const Login = ({navigation}) => {
      borderRadius: 2,
      fontSize: 12,
      width: 300,
-     marginTop: 20,
-     paddingTop: 20,
+     marginTop: 10,
+     paddingTop: 10,
      marginLeft: 50,
      borderWidth: 1,
      borderColor: 'gray',

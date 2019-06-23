@@ -20,13 +20,13 @@ const Signup = ({navigation}) => {
                Akwaaba
              </Text>
              <TextInput style={styles.input}
-             placeholder = "fullname"
+             placeholder = "Fullname"
              underlineColorAndroid = "transparent"
              autoCapitalize = "none"
              placeholderTextColor = "gray"
              />
              <TextInput style={styles.input}
-             placeholder = "E-mail"
+             placeholder = "Email"
              underColorAndroid = "transparent"
              autoCapitalize = "none"
              placeholderTextColor = "gray"
@@ -95,7 +95,7 @@ const Signup = ({navigation}) => {
      fontSize: 12,
      width: 300,
      marginTop: 5,
-     paddingTop: 20,
+     paddingTop: 10,
      marginLeft: 20,
      borderWidth: 1,
      borderColor: 'gray',
@@ -109,7 +109,7 @@ const Signup = ({navigation}) => {
      fontSize: 12,
      width: 300,
      marginTop: 5,
-     paddingTop: 20,
+     paddingTop: 10,
      marginLeft: 20,
      borderWidth: 1,
      borderColor: 'gray',
