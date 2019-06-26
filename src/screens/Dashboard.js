@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, Image, TouchableOpacity, ImageBackground } from 'react-native'
-import imageBackground from '../../../assets/images/Polygon.png'
-import Services from '../../screens/Services'
-import Swipe from '../../screens/Swipe'
-import Top from '../../screens/Top'
-import Transfer from '../../screens/Transfer'
+import imageBackground from '../../assets/images/Polygon.png'
+import Services from './Services'
+import Swipe from './Swipe'
+import Top from './Top'
+import Transfer from './Transfer'
 import { createDrawerNavigator, createStackNavigator, createAppContainer } from 'react-navigation'
 
 class NavigationDrawerStructure extends Component {
@@ -19,8 +19,8 @@ class NavigationDrawerStructure extends Component {
         <TouchableOpacity onPress={this.toggleDrawer.bind(this)}>
           {/* Donute Button Image */}
           <Image
-            source={require('../../../assets/images/drawer.png')}
-            style={{ width: 35, height: 35, marginLeft: 15, marginBottom: 20}}
+            source={require('../../assets/images/drawer.png')}
+            style={{ width: 35, height: 35, marginLeft: 15, marginTop: 20}}
           />
         </TouchableOpacity>
         <ImageBackground source={imageBackground}

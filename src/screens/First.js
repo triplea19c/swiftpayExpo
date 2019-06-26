@@ -1,8 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {Text, View, StyleSheet, Image, TouchableOpacity} from 'react-native'
-import image from '../../../assets/images/swiftpaylogo.png'
-import Login from './Login'
-import Signup from './Signup'
+import image from '../../assets/images/swiftpaylogo.png'
 
 const First = ({navigation}) => {
     return(

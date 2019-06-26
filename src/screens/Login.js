@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {Text, View, StyleSheet, Image, TouchableOpacity, TextInput, KeyboardAvoidingView, TouchableWithoutFeedback, Keyboard} from 'react-native'
-import image from '../../../assets/images/swiftpaylogo.png'
-import Dashboard from './Dashboard'
+import image from '../../assets/images/swiftpaylogo.png'
 
 const DismissKeyboard = ({ children }) => (
   <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
@@ -46,7 +45,9 @@ const Login = ({navigation}) => {
 
  const styles = StyleSheet.create({
    container: {
-     flex: 1
+     flex: 1,
+     alignItems: 'center',
+     justifyContent: 'center'
    },
    image: {
      width: 200,
